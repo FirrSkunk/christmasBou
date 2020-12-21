@@ -18,6 +18,7 @@ blink2.direction = Direction.OUTPUT
 blink3 = DigitalInOut(board.D4)
 blink3.direction = Direction.OUTPUT
 
+#prolly best if you don't change these
 touched = False
 lightsOn = False
 counter = 1
@@ -30,7 +31,7 @@ held = False
 
 ## Change these if you'd like
 blinkTimer = .3  # Change this number to make the blinks last longer or shoter
-loopCount = 12  # change this number to changet he number of "blinks" the lights go through when you boop
+loopCount = 12  # Change this number to change the number of "blinks" the lights go through when you boop
 
 
 # Capacitive touch on D1
